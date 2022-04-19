@@ -1,4 +1,3 @@
-/* eslint-disable prefer-const */
 /**
  * 함수
  * 다음 코드는 JavaScript에서 아무런 문제가 없지만 tsconfig.json에 설정된 noImplicitAny 설정 값이 true일
