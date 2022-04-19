@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-inferrable-types */
 /**
  * 원시 데이터 타입 number, string, boolean을 명시적으로 설정한 변수 선언은 다음과 같이 작성합니다.
  */
