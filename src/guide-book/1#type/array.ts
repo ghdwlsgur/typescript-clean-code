@@ -16,7 +16,7 @@
 // 만약 복합적으로 어떤 데이터 타입도 아이템으로 설정할 수 있는 배열이 필요하다면 다음과 같이 명시적 타입 선언을
 // 수행할 수 있습니다. any는 어떤 데이터 타입도 배열 아이템으로 설정 가능함을 말합니다.
 
-let members: any[] = [{ lastname: '홍' }, '진', '혁'];
+const members: any[] = [{ lastname: '홍' }, '진', '혁'];
 console.log(members);
 
 members.push(1);
@@ -25,15 +25,15 @@ console.log(members);
 // any[]는 배열 타입을 명시적으로 선언한 것이므로 배열이 아닌 다른 데이터는 할당될 수 없습니다.
 
 // 오직 숫자 자료형만 배열의 요소만 허용
-let numberAry: number[] = [100, 101, 102];
+const numberAry: number[] = [100, 101, 102];
 // 오직 문자 자료형만 배열의 요소만 허용
-let stringAry: string[] = ['ㄱ', 'ㄴ', 'ㄷ'];
+const stringAry: string[] = ['ㄱ', 'ㄴ', 'ㄷ'];
 // 오직 불리언 자료형만 배열의 요소만 허용
-let booleanAry: Array<boolean> = [true, false, true];
+const booleanAry: Array<boolean> = [true, false, true];
 // 모든 데이터 타입을 배열의 요소로 허용
-let anyAry: Array<any> = [100, 'ㄱ'];
+const anyAry: Array<any> = [100, 'ㄱ'];
 // 특정 데이터 타입만 배열의 요소로 허용
-let selects: (number | string)[] = [102, 'ㄱ'];
+const selects: (number | string)[] = [102, 'ㄱ'];
 
 console.log(numberAry);
 console.log(stringAry);
